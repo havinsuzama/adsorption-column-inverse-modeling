@@ -1,0 +1,80 @@
+{
+  "cases": {
+    "slow_kinetics": [
+      0.0005,
+      48,
+      0.04,
+      0.4
+    ],
+    "fast_kinetics": [
+      0.002,
+      48,
+      0.04,
+      0.4
+    ],
+    "low_affinity": [
+      0.001,
+      48,
+      0.01,
+      0.4
+    ],
+    "high_affinity": [
+      0.001,
+      48,
+      0.16,
+      0.4
+    ]
+  },
+  "designs": {
+    "one_condition": [
+      [
+        100,
+        40
+      ]
+    ],
+    "two_concentrations": [
+      [
+        100,
+        20
+      ],
+      [
+        200,
+        20
+      ]
+    ]
+  },
+  "starts": [
+    [
+      0.0007,
+      38.4,
+      0.024,
+      0.32
+    ],
+    [
+      0.0015,
+      57.6,
+      0.072,
+      0.5
+    ]
+  ],
+  "concentration_seeds": [
+    20261121,
+    20261122
+  ],
+  "porosity_seeds": [
+    20261131,
+    20261132
+  ],
+  "sigma_c": 0.02,
+  "sigma_log_porosity": 0.05,
+  "density_observed": 0.8254263138594846,
+  "max_nfev": 30,
+  "reference_cells": 1024,
+  "check_cells": 2048,
+  "fit_cells": 256,
+  "reference_gate": {
+    "rmse": 0.001,
+    "max_error": 0.002,
+    "relative_mass_error": 1e-06
+  }
+}

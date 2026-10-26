@@ -1,0 +1,325 @@
+{
+  "case": "high_affinity",
+  "concentration_index": 0,
+  "porosity_index": 0,
+  "fit_cells": 512,
+  "reference_cells": 1024,
+  "max_nfev": 20,
+  "parameter_order": [
+    "k_min",
+    "density_capacity_product",
+    "KL_l_mg",
+    "porosity"
+  ],
+  "tasks": [
+    {
+      "key": "one_condition_0_local_prediction",
+      "design": "one_condition",
+      "z_requested": 0,
+      "target_log_KL": -1.8508099521111756,
+      "target_KL": 0.15710986330044824,
+      "boundary_clipped": false,
+      "actual_local_z": 0.0,
+      "start_name": "local_prediction",
+      "start": [
+        -6.971200160401446,
+        3.8767696422548386,
+        -0.9497409742105507
+      ],
+      "base_log_parameters": [
+        -6.971200160401446,
+        3.8767696422548386,
+        -1.8508099521111756,
+        -0.9497409742105507
+      ],
+      "base_cost": 16.878639498748278
+    },
+    {
+      "key": "one_condition_-1_local_prediction",
+      "design": "one_condition",
+      "z_requested": -1,
+      "target_log_KL": -2.369260853918781,
+      "target_KL": 0.09354984773283563,
+      "boundary_clipped": false,
+      "actual_local_z": -0.9999999999999998,
+      "start_name": "local_prediction",
+      "start": [
+        -6.870194547626757,
+        3.906434669179109,
+        -0.9518693569303909
+      ],
+      "base_log_parameters": [
+        -6.971200160401446,
+        3.8767696422548386,
+        -1.8508099521111756,
+        -0.9497409742105507
+      ],
+      "base_cost": 16.878639498748278
+    },
+    {
+      "key": "one_condition_1_local_prediction",
+      "design": "one_condition",
+      "z_requested": 1,
+      "target_log_KL": -1.33235905030357,
+      "target_KL": 0.26385408148154277,
+      "boundary_clipped": false,
+      "actual_local_z": 0.9999999999999998,
+      "start_name": "local_prediction",
+      "start": [
+        -7.072205773176136,
+        3.847104615330568,
+        -0.9476125914907105
+      ],
+      "base_log_parameters": [
+        -6.971200160401446,
+        3.8767696422548386,
+        -1.8508099521111756,
+        -0.9497409742105507
+      ],
+      "base_cost": 16.878639498748278
+    },
+    {
+      "key": "one_condition_-2_local_prediction",
+      "design": "one_condition",
+      "z_requested": -2,
+      "target_log_KL": -2.8877117557263867,
+      "target_KL": 0.05570353017302743,
+      "boundary_clipped": false,
+      "actual_local_z": -1.9999999999999996,
+      "start_name": "local_prediction",
+      "start": [
+        -6.7691889348520675,
+        3.9360996961033794,
+        -0.953997739650231
+      ],
+      "base_log_parameters": [
+        -6.971200160401446,
+        3.8767696422548386,
+        -1.8508099521111756,
+        -0.9497409742105507
+      ],
+      "base_cost": 16.878639498748278
+    },
+    {
+      "key": "one_condition_-2_baseline_nuisance",
+      "design": "one_condition",
+      "z_requested": -2,
+      "target_log_KL": -2.8877117557263867,
+      "target_KL": 0.05570353017302743,
+      "boundary_clipped": false,
+      "actual_local_z": -1.9999999999999996,
+      "start_name": "baseline_nuisance",
+      "start": [
+        -6.971200160401446,
+        3.8767696422548386,
+        -0.9497409742105507
+      ],
+      "base_log_parameters": [
+        -6.971200160401446,
+        3.8767696422548386,
+        -1.8508099521111756,
+        -0.9497409742105507
+      ],
+      "base_cost": 16.878639498748278
+    },
+    {
+      "key": "one_condition_2_local_prediction",
+      "design": "one_condition",
+      "z_requested": 2,
+      "target_log_KL": -0.916290731874155,
+      "target_KL": 0.4,
+      "boundary_clipped": true,
+      "actual_local_z": 1.8025221230762092,
+      "start_name": "local_prediction",
+      "start": [
+        -7.153265011982693,
+        3.8232977749421897,
+        -0.9459045172716657
+      ],
+      "base_log_parameters": [
+        -6.971200160401446,
+        3.8767696422548386,
+        -1.8508099521111756,
+        -0.9497409742105507
+      ],
+      "base_cost": 16.878639498748278
+    },
+    {
+      "key": "one_condition_2_baseline_nuisance",
+      "design": "one_condition",
+      "z_requested": 2,
+      "target_log_KL": -0.916290731874155,
+      "target_KL": 0.4,
+      "boundary_clipped": true,
+      "actual_local_z": 1.8025221230762092,
+      "start_name": "baseline_nuisance",
+      "start": [
+        -6.971200160401446,
+        3.8767696422548386,
+        -0.9497409742105507
+      ],
+      "base_log_parameters": [
+        -6.971200160401446,
+        3.8767696422548386,
+        -1.8508099521111756,
+        -0.9497409742105507
+      ],
+      "base_cost": 16.878639498748278
+    },
+    {
+      "key": "two_concentrations_0_local_prediction",
+      "design": "two_concentrations",
+      "z_requested": 0,
+      "target_log_KL": -1.8180471200090607,
+      "target_KL": 0.1623424769441813,
+      "boundary_clipped": false,
+      "actual_local_z": 0.0,
+      "start_name": "local_prediction",
+      "start": [
+        -6.987683863590217,
+        3.8763676790509796,
+        -0.9486050258071375
+      ],
+      "base_log_parameters": [
+        -6.987683863590217,
+        3.8763676790509796,
+        -1.8180471200090607,
+        -0.9486050258071375
+      ],
+      "base_cost": 16.655503943577884
+    },
+    {
+      "key": "two_concentrations_-1_local_prediction",
+      "design": "two_concentrations",
+      "z_requested": -1,
+      "target_log_KL": -1.9797596576355796,
+      "target_KL": 0.13810242518590826,
+      "boundary_clipped": false,
+      "actual_local_z": -0.9999999999999994,
+      "start_name": "local_prediction",
+      "start": [
+        -6.974902876891443,
+        3.8848268188044335,
+        -0.9502378814877461
+      ],
+      "base_log_parameters": [
+        -6.987683863590217,
+        3.8763676790509796,
+        -1.8180471200090607,
+        -0.9486050258071375
+      ],
+      "base_cost": 16.655503943577884
+    },
+    {
+      "key": "two_concentrations_1_local_prediction",
+      "design": "two_concentrations",
+      "z_requested": 1,
+      "target_log_KL": -1.6563345823825417,
+      "target_KL": 0.19083719771679483,
+      "boundary_clipped": false,
+      "actual_local_z": 0.9999999999999994,
+      "start_name": "local_prediction",
+      "start": [
+        -7.00046485028899,
+        3.8679085392975256,
+        -0.9469721701265288
+      ],
+      "base_log_parameters": [
+        -6.987683863590217,
+        3.8763676790509796,
+        -1.8180471200090607,
+        -0.9486050258071375
+      ],
+      "base_cost": 16.655503943577884
+    },
+    {
+      "key": "two_concentrations_-2_local_prediction",
+      "design": "two_concentrations",
+      "z_requested": -2,
+      "target_log_KL": -2.1414721952620988,
+      "target_KL": 0.11748175955690919,
+      "boundary_clipped": false,
+      "actual_local_z": -2.0000000000000004,
+      "start_name": "local_prediction",
+      "start": [
+        -6.9621218901926705,
+        3.8932859585578874,
+        -0.9518707371683548
+      ],
+      "base_log_parameters": [
+        -6.987683863590217,
+        3.8763676790509796,
+        -1.8180471200090607,
+        -0.9486050258071375
+      ],
+      "base_cost": 16.655503943577884
+    },
+    {
+      "key": "two_concentrations_-2_baseline_nuisance",
+      "design": "two_concentrations",
+      "z_requested": -2,
+      "target_log_KL": -2.1414721952620988,
+      "target_KL": 0.11748175955690919,
+      "boundary_clipped": false,
+      "actual_local_z": -2.0000000000000004,
+      "start_name": "baseline_nuisance",
+      "start": [
+        -6.987683863590217,
+        3.8763676790509796,
+        -0.9486050258071375
+      ],
+      "base_log_parameters": [
+        -6.987683863590217,
+        3.8763676790509796,
+        -1.8180471200090607,
+        -0.9486050258071375
+      ],
+      "base_cost": 16.655503943577884
+    },
+    {
+      "key": "two_concentrations_2_local_prediction",
+      "design": "two_concentrations",
+      "z_requested": 2,
+      "target_log_KL": -1.4946220447560226,
+      "target_KL": 0.2243333766856412,
+      "boundary_clipped": false,
+      "actual_local_z": 2.0000000000000004,
+      "start_name": "local_prediction",
+      "start": [
+        -7.013245836987763,
+        3.8594493995440717,
+        -0.9453393144459201
+      ],
+      "base_log_parameters": [
+        -6.987683863590217,
+        3.8763676790509796,
+        -1.8180471200090607,
+        -0.9486050258071375
+      ],
+      "base_cost": 16.655503943577884
+    },
+    {
+      "key": "two_concentrations_2_baseline_nuisance",
+      "design": "two_concentrations",
+      "z_requested": 2,
+      "target_log_KL": -1.4946220447560226,
+      "target_KL": 0.2243333766856412,
+      "boundary_clipped": false,
+      "actual_local_z": 2.0000000000000004,
+      "start_name": "baseline_nuisance",
+      "start": [
+        -6.987683863590217,
+        3.8763676790509796,
+        -0.9486050258071375
+      ],
+      "base_log_parameters": [
+        -6.987683863590217,
+        3.8763676790509796,
+        -1.8180471200090607,
+        -0.9486050258071375
+      ],
+      "base_cost": 16.655503943577884
+    }
+  ],
+  "scope": "Post-pilot development diagnostic: KL fixed at fitted log value plus 0,+/-1,+/-2 local standard deviations, clipped to original bounds. Other 3 parameters reoptimized. Extra baseline-nuisance start only at extremes. 14 fits, same observed objective and bounds. No threshold-based confidence interval or coverage claim; sparse points, not a full profile."
+}

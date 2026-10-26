@@ -1,0 +1,12 @@
+{
+  "refine_selected_regimes.py": "1817607ed6cfc93f00dfeaaa9b96b7c2598f169ea19323ac1bdf9818e5611b53",
+  "parameter_regimes.py": "1b0a51acb1cba1e83b6f0e8b5dc4068aaa9f615a5a60ec6342999f56d74c318b",
+  "fast_column_sensitivity.py": "93136cf65a20fb7e25b4ea65f5ce8f6a764d5ad14c264e32492019daa9ff0b9f",
+  "physics_model.py": "652f0a4ce70cc00890afb5e3346954abc62b3bd07dcd93d0ce1bd156ff332a46",
+  "fast_kinetics/result.json": "341e6123be4770e6583930e0d82ff801d3960227af954befccc0ec2c97266348",
+  "fast_kinetics/observations.npz": "7ca6822186cb6aa39cecaa53f25655717df2eff684eddba1ec938565c05e0870",
+  "fast_kinetics/reference.npz": "b9ed28d5cc41781fd476ce7fc1529ebb205c8e48437ec7988992b166903873b1",
+  "high_affinity/result.json": "3b641db7ca12b4704c0b71c29864511270a1e998dc1c73b66d26548a57ec42c6",
+  "high_affinity/observations.npz": "27515c9d109ced20820a7adf8170af5e2aa1830b44c4a6ce41d9e61f81f5aee3",
+  "high_affinity/reference.npz": "4be2ce01d9ee3826ad03cfb1b2e6025eb310a7a7dc7c553bb84471d6b4610681"
+}

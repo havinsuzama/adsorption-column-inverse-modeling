@@ -1,0 +1,572 @@
+{
+  "scope": "Released source files with SHA-256 hashes. Experiment scripts and protocols are unchanged from the research runs; report scripts, reports and documentation were edited for this release.",
+  "files": [
+    {
+      "source": "research_check/physics_model.py",
+      "destination": "physics_model.py",
+      "sha256": "652f0a4ce70cc00890afb5e3346954abc62b3bd07dcd93d0ce1bd156ff332a46",
+      "note": "Unchanged solver; line endings normalized for Git portability."
+    },
+    {
+      "source": "research_check/fast_column_sensitivity.py",
+      "destination": "fast_column_sensitivity.py",
+      "sha256": "d1f03136b5112a0bf9032ba39b311eb1e93cedbca45e295d1538d2d7176ac7b4",
+      "note": "Solver unchanged; standalone self-check replaces legacy dependency."
+    },
+    {
+      "source": "research_check/physics_model.py",
+      "destination": "experiments/physics_model.py",
+      "sha256": "652f0a4ce70cc00890afb5e3346954abc62b3bd07dcd93d0ce1bd156ff332a46"
+    },
+    {
+      "source": "research_check/fast_column_sensitivity.py",
+      "destination": "experiments/fast_column_sensitivity.py",
+      "sha256": "93136cf65a20fb7e25b4ea65f5ce8f6a764d5ad14c264e32492019daa9ff0b9f"
+    },
+    {
+      "source": "research_check/nonlinear_design_pilot.py",
+      "destination": "experiments/nonlinear_design_pilot.py",
+      "sha256": "cb09679e99755c567af9fb74ddde52dd6b56038af97c654fb8267201dc76d145"
+    },
+    {
+      "source": "research_check/crossed_replication.py",
+      "destination": "experiments/crossed_replication.py",
+      "sha256": "92b2d489fc8599a1f42365ac0eee5a7aa06a61d36c1c21a0270c2891c7613e85"
+    },
+    {
+      "source": "research_check/report_crossed_replication.py",
+      "destination": "experiments/report_crossed_replication.py",
+      "sha256": "46e8acf86e7d7709aa17122419ef7e3ed5c0e87491badd246247ec33bcccce3d",
+      "note": "Report text translated to English; numerical logic unchanged."
+    },
+    {
+      "source": "research_check/parameter_regimes.py",
+      "destination": "experiments/parameter_regimes.py",
+      "sha256": "1b0a51acb1cba1e83b6f0e8b5dc4068aaa9f615a5a60ec6342999f56d74c318b"
+    },
+    {
+      "source": "research_check/report_parameter_regimes.py",
+      "destination": "experiments/report_parameter_regimes.py",
+      "sha256": "37e02c2941200b6b8fe48ac6ba30a5eec0e8b9ddf5f41c9ac1250b8753dcd0e9",
+      "note": "Report text translated to English; numerical logic unchanged."
+    },
+    {
+      "source": "research_check/refine_selected_regimes.py",
+      "destination": "experiments/refine_selected_regimes.py",
+      "sha256": "1817607ed6cfc93f00dfeaaa9b96b7c2598f169ea19323ac1bdf9818e5611b53"
+    },
+    {
+      "source": "research_check/local_regime_uncertainty.py",
+      "destination": "experiments/local_regime_uncertainty.py",
+      "sha256": "49421fe5381a29b9f1937c4f99dc213a9b8d524f6e703c830f244bb2dbb55693"
+    },
+    {
+      "source": "research_check/high_affinity_profile.py",
+      "destination": "experiments/high_affinity_profile.py",
+      "sha256": "39c166b4df45dedf5b2dd0ee296763d721efbe40306a71e8d3cd0656ca7ce86e"
+    },
+    {
+      "source": "research_check/report_high_affinity_profile.py",
+      "destination": "experiments/report_high_affinity_profile.py",
+      "sha256": "aa6188a67ff40f7a325db3b0c6783153a0100230fe9665828a7dafeade3bb424",
+      "note": "Report text translated to English; numerical logic unchanged."
+    },
+    {
+      "source": "research_check/auxiliary_precision_geometry.py",
+      "destination": "experiments/auxiliary_precision_geometry.py",
+      "sha256": "2d6e73270689fca67cdd66b7311c0c35b9792507907c4be14d01ee3bf56b3b29"
+    },
+    {
+      "source": "research_check/CAPRAZ_TEKRAR_PROTOKOLU.md",
+      "destination": "experiments/CAPRAZ_TEKRAR_PROTOKOLU.md",
+      "sha256": "29c3b18b7ab3f1f79b7f326670eeaf10f4f2eec2b01de5f3dd44ad5dd5b652f3"
+    },
+    {
+      "source": "research_check/FARKLI_PARAMETRELER_PROTOKOLU.md",
+      "destination": "experiments/FARKLI_PARAMETRELER_PROTOKOLU.md",
+      "sha256": "0c6d3a6b529fe842a36a75cebbbae97ca159bdf1624ddca87b1b922bc677b57b"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/environment.json",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/environment.json",
+      "sha256": "d4c705ca4640f9b43d4ab24cd7b3398f2b77d3b8e8a9741b1d5adacb1e593c60"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/factor_effects.json",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/factor_effects.json",
+      "sha256": "8906e4c0ef3f9f5d22c9cb83ba0e64250a7db59285bcfe666aeb1070e5dd91ee"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/factor_effects.png",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/factor_effects.png",
+      "sha256": "356b333206d4828f6e62f28b825ef5d0cef6f2cebd4467b26b3acf0a7484576c"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/fits.json",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/fits.json",
+      "sha256": "51ec5037fc2bab48e3b24f6742080b3c18b443d326dc4dabf18436a364ee7e1c"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/observations.npz",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/observations.npz",
+      "sha256": "50b82bd284040d95033be9b1af1b367b8595d053c697313f67212c13b9e2e173"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/protocol.json",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/protocol.json",
+      "sha256": "025fbe5f8a62e107a21181f2671373c7dfc48e0e0957ab77d968c06a5328fa14"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/provenance.json",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/provenance.json",
+      "sha256": "710b2100ecc5b3cc76af900c36a9be9f27a5b09b2588e19a72b97a8a2c937111"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/RAPOR.md",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/REPORT.md",
+      "sha256": "4f90cce58dd0f1f8fc3e33459ddbd2a5a7a27d61f02802e67ea9e10963fbe33d",
+      "note": "English report; replaces the original Turkish RAPOR.md."
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/reference.npz",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/reference.npz",
+      "sha256": "5a012678e42ab1938e208c8e141690be364d7762561832914a81ddbc2b481838"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/reference_checks.json",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/reference_checks.json",
+      "sha256": "d24b7b919497e9babd541cdf950455acd0b9b2797269539b68ba8fe6761e0474"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/result.json",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/result.json",
+      "sha256": "5ea83afcc9031b5d7b765c475e76b8feab49f8d4cd63a4c49151d286abddc862"
+    },
+    {
+      "source": "research_check/runs_crossed_replication/pilot_v1/selected.json",
+      "destination": "experiments/runs_crossed_replication/pilot_v1/selected.json",
+      "sha256": "382cf3262c0a633598112a7c016ca0a071b735ce07ab80ffddc0c2693823cbf0"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/comparison.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/comparison.json",
+      "sha256": "43db0e69cfa49ff2d224efe781037bfd27547a682891f05b4d6e99bfa3e66ddc"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/completion.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/completion.json",
+      "sha256": "03f40ab9e32a338090a140f7b5c52babdffcb1048bc29a906c14c5ae4edba517"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/environment.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/environment.json",
+      "sha256": "d4c705ca4640f9b43d4ab24cd7b3398f2b77d3b8e8a9741b1d5adacb1e593c60"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/paired_factor_diagnostic.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/paired_factor_diagnostic.json",
+      "sha256": "dde021b5df3a787df034542c52fea31033543442910f278b6a58b16baf7ca653"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/protocol.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/protocol.json",
+      "sha256": "2c27b45393bea0bc0e2c3cb45de9d3e3aa655370b8ab6e86968634336377e29b"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/provenance.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/provenance.json",
+      "sha256": "d57b6a348aa473735da6c82bc1776f7b76427b276d6933be736b98c580b9e784"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/RAPOR.md",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/REPORT.md",
+      "sha256": "1511fd607a98ef3e5af9bd751aa9650e9d52e35e017a585e6320c9fef92deebe",
+      "note": "English report; replaces the original Turkish RAPOR.md."
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/reference_status.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/reference_status.json",
+      "sha256": "b45658e8b0dd33b8bf82e76135c35116810d8e4a3e3f16fa57540f375b3738f4"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/regime_predictions.png",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/regime_predictions.png",
+      "sha256": "1990d1e6d54b36de160ddff986040e239502eb7da3b969d108b98af55806152c"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/reproducibility_audit.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/reproducibility_audit.json",
+      "sha256": "addefd707bc42bfb752cb33ac7971af96f086cb4c62fa3e88cdacd5fdf1defe1"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/fits.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/fits.json",
+      "sha256": "6c1c806f357e019204651bba7bc10113285e0f428d418069de06a2d2f3972abb"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/observations.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/observations.npz",
+      "sha256": "7ca6822186cb6aa39cecaa53f25655717df2eff684eddba1ec938565c05e0870"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/reference.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/reference.npz",
+      "sha256": "b9ed28d5cc41781fd476ce7fc1529ebb205c8e48437ec7988992b166903873b1"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_100_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_100_1024.npz",
+      "sha256": "89b340bb5ed4aefde87591c72e1c5124f15583110e7bbd242963fc207520864d"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_100_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_100_2048.npz",
+      "sha256": "c701d39301f9d2bc7ee38034e9bd7bfd099636067b582adc8e21f21d6e2ab8c2"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_150_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_150_1024.npz",
+      "sha256": "23fcdf0c52393e743a7a76ded9192b7fd88fca8bb2636762df8fbabf693cd199"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_150_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_150_2048.npz",
+      "sha256": "463e763fc39460d32c0067a6acfb1e980aa2c788842f20d965ba9f281bb45a75"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_200_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_200_1024.npz",
+      "sha256": "97efd6052e21c7fb4bee77c3caf1efd6c1de67fa1b81591db16de5ddb8fd6bb5"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_200_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_200_2048.npz",
+      "sha256": "4b6ae41d6489cac9ec5497025dfe41309e5abd5417ab7040295e43a3d5ffc4b8"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_checks.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/reference_checks.json",
+      "sha256": "4f9c11e1e19a396e9961d50dd1d5f5eea77d724175f7c3c09ca7154bbffe06be"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/result.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/result.json",
+      "sha256": "341e6123be4770e6583930e0d82ff801d3960227af954befccc0ec2c97266348"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/fast_kinetics/selected.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/fast_kinetics/selected.json",
+      "sha256": "3ea03f7c6789f5ce7c2df71f5d2ca83dfc024621c3c194286958d6c21e27edb8"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/fits.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/fits.json",
+      "sha256": "8429adbcc238c78cc53dd5c19afdfc622f731af8f893245fa5f535bcadcaeb5b"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/observations.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/observations.npz",
+      "sha256": "27515c9d109ced20820a7adf8170af5e2aa1830b44c4a6ce41d9e61f81f5aee3"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/reference.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/reference.npz",
+      "sha256": "4be2ce01d9ee3826ad03cfb1b2e6025eb310a7a7dc7c553bb84471d6b4610681"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/reference_100_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/reference_100_1024.npz",
+      "sha256": "fec1e7141e653e2c8c8cc7ae1ad31a1d19869a046916ac355339cbf448b09dd4"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/reference_100_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/reference_100_2048.npz",
+      "sha256": "81e6b38ca4dba5a407747b0f091f0d6992c91b00c7983f77e4ea7c498e8c32dc"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/reference_150_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/reference_150_1024.npz",
+      "sha256": "9e6006a07daa2f2abb13f943452811212849a2001e998dc7959c6c04c2e74e5c"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/reference_150_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/reference_150_2048.npz",
+      "sha256": "94b96bf6df7835452430b306f029580f19b5551112da31f37cf7eec1fd2bb145"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/reference_200_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/reference_200_1024.npz",
+      "sha256": "5b41397e381d5d5241edc123e728e8edc8e197a3bd7a0e46bcd73dec0a0ba3cf"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/reference_200_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/reference_200_2048.npz",
+      "sha256": "ab6f6847ae3228250562c3d0d2d33742108b0b2006ac9849c7c0e18950b77367"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/reference_checks.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/reference_checks.json",
+      "sha256": "f4b764f532e7c5fb5e6c18780adc15acb90a55063ba82120942902eec0117d92"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/result.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/result.json",
+      "sha256": "3b641db7ca12b4704c0b71c29864511270a1e998dc1c73b66d26548a57ec42c6"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/high_affinity/selected.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/high_affinity/selected.json",
+      "sha256": "283447032380b647f04814a06d71b19a3f91356b61576e5c95abd041095f536a"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/fits.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/fits.json",
+      "sha256": "780c9f08f2c058685dcf8a5d69e81ccf284820efab3ff1a80d94b08d6afbbf53"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/observations.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/observations.npz",
+      "sha256": "ebd3c941cb640b45787b26c41a34f92e43b136ca168528f12c64ef888228922c"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/reference.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/reference.npz",
+      "sha256": "61f35e12f8b31d1e0883bdb3096256c6489227d5475ed5644d0baa2b05b6077d"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/reference_100_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/reference_100_1024.npz",
+      "sha256": "9067ece0d17742753999ad28a435dff45b25b32a728b06ae5942464d2cdcda66"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/reference_100_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/reference_100_2048.npz",
+      "sha256": "7955aebc853671b8144c95798e11fc528cb9bd4ea705bcbe5259ffa2f449ace8"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/reference_150_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/reference_150_1024.npz",
+      "sha256": "bca60577a6763c9132ccbc9f68df3d8821424140dfa9e482b7ebe7a3741dd8b2"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/reference_150_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/reference_150_2048.npz",
+      "sha256": "500b3d87ffc4adc232e09bf9273f784120aa6356810f2b310d7cf3ce255c2c92"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/reference_200_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/reference_200_1024.npz",
+      "sha256": "4fb8eac79b590f12a6c5eeff3bef011d12bfeb6dc3cd964d1506f63d03c561f2"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/reference_200_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/reference_200_2048.npz",
+      "sha256": "04323d0a78e4c47510735686cfd4f8aebd41910d9d7bcc28e0de635571abf98b"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/reference_checks.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/reference_checks.json",
+      "sha256": "a81d67d473f2216f98aaa865535dd0666de3070cf2ce2d0531e990adb95bc4d8"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/result.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/result.json",
+      "sha256": "032e43dad4cd7b89c2580a7b92e7288bd2727a691739b746c19573774ef1b20f"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/low_affinity/selected.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/low_affinity/selected.json",
+      "sha256": "af619e92a39e273f8bcb74ae9e0e790cbb0d217a4a55223ec02b55bd3d71dc74"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/fits.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/fits.json",
+      "sha256": "007a747434ee60c8b2288bc22ab29813467b3a0b4a0e53de43c89478bf7f00d4"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/observations.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/observations.npz",
+      "sha256": "468b7084827207e76a133c7779ecd584466f465e216286c0e40bc1cfd36844c3"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/reference.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/reference.npz",
+      "sha256": "f07822014626c0607590247ff51b89409b6c41336743dce0bc3f6cf88262806b"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_100_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_100_1024.npz",
+      "sha256": "82c053b8c48f78a03ddf89f1ce58d6ba28f54c802da49dbf86c63cbff213f3ff"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_100_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_100_2048.npz",
+      "sha256": "35baa04c99f34ceda1bbe8c5b0910fbe955b7fddd92594a748940077473959da"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_150_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_150_1024.npz",
+      "sha256": "fd201ee5f2cae866d5e8315b85c0192f3ae89eb2c4a91a6622742e40b2d4008b"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_150_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_150_2048.npz",
+      "sha256": "431ffdafdb89e6a808e19c9a4831c1de50c94af84eee73c3f05cf0d570b85c0b"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_200_1024.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_200_1024.npz",
+      "sha256": "bcbac6b18b8dd91a27b1f8c4df30a3f40232d06c96d048300025fc500bd7e4fa"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_200_2048.npz",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_200_2048.npz",
+      "sha256": "27c0206018ca3cfbb5eeccbef5fd2a72edbce913ec7ab2e374e78811367f1f77"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_checks.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/reference_checks.json",
+      "sha256": "bb3309a80ad63159ee7d358a190243540068c18e65344ceec6b5863824633299"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/result.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/result.json",
+      "sha256": "fba4094185f293ce4bb6479e841afde2d61bab46e4ae3283c2a015c6b1d53bc4"
+    },
+    {
+      "source": "research_check/runs_parameter_regimes/pilot_v1/slow_kinetics/selected.json",
+      "destination": "experiments/runs_parameter_regimes/pilot_v1/slow_kinetics/selected.json",
+      "sha256": "057f8eed8e930c0ea55edb5c5ddd4d533ae6363d9ae7b603bfa18243a07f7dda"
+    },
+    {
+      "source": "research_check/runs_regime_grid/pilot_v1/fits.json",
+      "destination": "experiments/runs_regime_grid/pilot_v1/fits.json",
+      "sha256": "fdf67e1cf4d80c35765f606801914188b25db22b8c3e54e7a8c6d2d45e3ceb4c"
+    },
+    {
+      "source": "research_check/runs_regime_grid/pilot_v1/grid_prediction_comparison.png",
+      "destination": "experiments/runs_regime_grid/pilot_v1/grid_prediction_comparison.png",
+      "sha256": "4d6cc30b64e8772303ffaf7c2f074f2f6772020a722c12e80ded814e2ff3c2d4"
+    },
+    {
+      "source": "research_check/runs_regime_grid/pilot_v1/protocol.json",
+      "destination": "experiments/runs_regime_grid/pilot_v1/protocol.json",
+      "sha256": "091aca8b04df0513290204fd3b41cb7bdee9567ed9f5f0cd54186b62df0bf20e"
+    },
+    {
+      "source": "research_check/runs_regime_grid/pilot_v1/provenance.json",
+      "destination": "experiments/runs_regime_grid/pilot_v1/provenance.json",
+      "sha256": "3e92ecf1b956358e0cf40e464c6a7a6e7d809be6455681e2aa61daac51da9454"
+    },
+    {
+      "source": "research_check/runs_regime_grid/pilot_v1/RAPOR.md",
+      "destination": "experiments/runs_regime_grid/pilot_v1/REPORT.md",
+      "sha256": "0c97ce18e69b61cc14643b0218b1fea76b265fd9bdb168c1690e90e10f0ed95d",
+      "note": "English report; replaces the original Turkish RAPOR.md."
+    },
+    {
+      "source": "research_check/runs_regime_grid/pilot_v1/result.json",
+      "destination": "experiments/runs_regime_grid/pilot_v1/result.json",
+      "sha256": "df4cdc753ca02bcf6a782e94a0d3774fda784e7fd843ba1e5756216fa3e6aa56"
+    },
+    {
+      "source": "research_check/runs_local_regime_uncertainty/pilot_v1/local_standard_deviations.png",
+      "destination": "experiments/runs_local_regime_uncertainty/pilot_v1/local_standard_deviations.png",
+      "sha256": "6047650fd56941d9b5024b374f43a49e215a41c7ee72a2adc80b41f10a9e91dd"
+    },
+    {
+      "source": "research_check/runs_local_regime_uncertainty/pilot_v1/partial.json",
+      "destination": "experiments/runs_local_regime_uncertainty/pilot_v1/partial.json",
+      "sha256": "d5eb6f5850945486a7d87083e2db7ab74d2262659334c8da3ee71fb94573fcdc"
+    },
+    {
+      "source": "research_check/runs_local_regime_uncertainty/pilot_v1/protocol.json",
+      "destination": "experiments/runs_local_regime_uncertainty/pilot_v1/protocol.json",
+      "sha256": "715f957a64feeb37f8b7f22cd89df391d748d40c259673b59fa39ebc09dc41d1"
+    },
+    {
+      "source": "research_check/runs_local_regime_uncertainty/pilot_v1/provenance.json",
+      "destination": "experiments/runs_local_regime_uncertainty/pilot_v1/provenance.json",
+      "sha256": "a0b5e215814c60f668c44b6828fd438e4ca6a336c1d297ef6a9c585d4c33ba5d"
+    },
+    {
+      "source": "research_check/runs_local_regime_uncertainty/pilot_v1/RAPOR.md",
+      "destination": "experiments/runs_local_regime_uncertainty/pilot_v1/REPORT.md",
+      "sha256": "400aaddbc9083d252f689170eddcbdcfd3d139a11b143e129fab3114cda3c09c",
+      "note": "English report; replaces the original Turkish RAPOR.md."
+    },
+    {
+      "source": "research_check/runs_local_regime_uncertainty/pilot_v1/result.json",
+      "destination": "experiments/runs_local_regime_uncertainty/pilot_v1/result.json",
+      "sha256": "e0033c0b43f4b60287da2abc4c0cd8201fc9e88f4c63dd8e0d03836666a69e16"
+    },
+    {
+      "source": "research_check/runs_high_affinity_profile/pilot_v1/fits.json",
+      "destination": "experiments/runs_high_affinity_profile/pilot_v1/fits.json",
+      "sha256": "71c14e022c765e39765ff2a2b59f7e5f0e016333fbb73530ffa265e2eabcac3d"
+    },
+    {
+      "source": "research_check/runs_high_affinity_profile/pilot_v1/profile_comparison.png",
+      "destination": "experiments/runs_high_affinity_profile/pilot_v1/profile_comparison.png",
+      "sha256": "79ad6e33977bc05b5a248264c2971820a5f321f2eb45f03dc0bb8cfdb1914a1c"
+    },
+    {
+      "source": "research_check/runs_high_affinity_profile/pilot_v1/protocol.json",
+      "destination": "experiments/runs_high_affinity_profile/pilot_v1/protocol.json",
+      "sha256": "8e8e0e27b6ab814bb8cf623af277039181f67fd121be2c6ea45677f4d22d1279"
+    },
+    {
+      "source": "research_check/runs_high_affinity_profile/pilot_v1/provenance.json",
+      "destination": "experiments/runs_high_affinity_profile/pilot_v1/provenance.json",
+      "sha256": "0ffc98e8662e87a45cc09773abad54aceb51af08288a9715f814e75d86a663be"
+    },
+    {
+      "source": "research_check/runs_high_affinity_profile/pilot_v1/RAPOR.md",
+      "destination": "experiments/runs_high_affinity_profile/pilot_v1/REPORT.md",
+      "sha256": "1748840df5e84f38394e254339b2adee4a5a0f110dac136c2e3c0bd26cc5c194",
+      "note": "English report; replaces the original Turkish RAPOR.md."
+    },
+    {
+      "source": "research_check/runs_high_affinity_profile/pilot_v1/result.json",
+      "destination": "experiments/runs_high_affinity_profile/pilot_v1/result.json",
+      "sha256": "98b6799d71d0359468f458d61cbc84d35e6156e02801868099afb4240bc29d82"
+    },
+    {
+      "source": "research_check/runs_auxiliary_precision_geometry/pilot_v1/precision_effect.png",
+      "destination": "experiments/runs_auxiliary_precision_geometry/pilot_v1/precision_effect.png",
+      "sha256": "69456f032ecbd1c8849108ce360bb2bd9dace78c6017469f083ff2e127e3eab9"
+    },
+    {
+      "source": "research_check/runs_auxiliary_precision_geometry/pilot_v1/provenance.json",
+      "destination": "experiments/runs_auxiliary_precision_geometry/pilot_v1/provenance.json",
+      "sha256": "90816b9cc904bf0c3e7b87604e52b7ffd14ef150ab0a780fcc970973a11f9dad"
+    },
+    {
+      "source": "research_check/runs_auxiliary_precision_geometry/pilot_v1/RAPOR.md",
+      "destination": "experiments/runs_auxiliary_precision_geometry/pilot_v1/REPORT.md",
+      "sha256": "6eb81a7a30a99c52abc959d8745f06ba0c70b21c1a08e6f9e9997c372e402778",
+      "note": "English report; replaces the original Turkish RAPOR.md."
+    },
+    {
+      "source": "research_check/runs_auxiliary_precision_geometry/pilot_v1/result.json",
+      "destination": "experiments/runs_auxiliary_precision_geometry/pilot_v1/result.json",
+      "sha256": "78250a69cf49f5f41b79f59690bdad843ed4de15e908978519d9a3ae89bcfc35"
+    },
+    {
+      "source": "python_quickstart/balanced_pinn.py",
+      "destination": "experimental_pinn/balanced_pinn.py",
+      "sha256": "65c0f525d130c8d260e65875a5417c944d0f9dec4dcd7ca9c6e9aac0f8f0b91c",
+      "note": "Console messages and plot labels translated to English."
+    },
+    {
+      "source": "python_quickstart/start_model.pt",
+      "destination": "experimental_pinn/start_model.pt",
+      "sha256": "fbd23646ea8b6b05d8884f2e768f7e1f6dbe9b22ff959948ec743c3d1ae16ff3"
+    },
+    {
+      "source": "python_quickstart/reference_early.npz",
+      "destination": "experimental_pinn/reference_early.npz",
+      "sha256": "2de004e01407277675077a536a97568fa13070223f8a8ea867aec4a1389699cb"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "results": [
+    {
+      "key": "fast_kinetics_one_condition",
+      "case": "fast_kinetics",
+      "design": "one_condition",
+      "sigma_log_porosity": 0.01,
+      "log_parameter_std": [
+        0.2122290708526525,
+        0.06814405972889485,
+        0.43184921241653773,
+        0.00999999564080355
+      ],
+      "direct_solve_relative_check": 1.5417861295217385e-14
+    },
+    {
+      "key": "fast_kinetics_one_condition",
+      "case": "fast_kinetics",
+      "design": "one_condition",
+      "sigma_log_porosity": 0.02,
+      "log_parameter_std": [
+        0.21223029418114167,
+        0.06815877083796586,
+        0.4319357017525245,
+        0.01999996512649673
+      ],
+      "direct_solve_relative_check": 1.5581867894403312e-14
+    },
+    {
+      "key": "fast_kinetics_one_condition",
+      "case": "fast_kinetics",
+      "design": "one_condition",
+      "sigma_log_porosity": 0.05,
+      "log_parameter_std": [
+        0.21223885710396487,
+        0.0682616576791394,
+        0.43254063022088135,
+        0.04999945510899359
+      ],
+      "direct_solve_relative_check": 1.5994883073460458e-14
+    },
+    {
+      "key": "fast_kinetics_one_condition",
+      "case": "fast_kinetics",
+      "design": "one_condition",
+      "sigma_log_porosity": 0.1,
+      "log_parameter_std": [
+        0.21226943359242062,
+        0.06862782096357761,
+        0.4346940372267098,
+        0.09999564108570873
+      ],
+      "direct_solve_relative_check": 1.8692769318829517e-14
+    },
+    {
+      "key": "fast_kinetics_one_condition",
+      "case": "fast_kinetics",
+      "design": "one_condition",
+      "sigma_log_porosity": 0.2,
+      "log_parameter_std": [
+        0.2123916555806218,
+        0.0700728755472288,
+        0.443200294937538,
+        0.19996513552412815
+      ],
+      "direct_solve_relative_check": 3.212958778615662e-14
+    },
+    {
+      "key": "fast_kinetics_two_concentrations",
+      "case": "fast_kinetics",
+      "design": "two_concentrations",
+      "sigma_log_porosity": 0.01,
+      "log_parameter_std": [
+        0.09635500915633474,
+        0.011953443471945132,
+        0.07042590656389325,
+        0.00999912484368836
+      ],
+      "direct_solve_relative_check": 8.467581988972365e-16
+    },
+    {
+      "key": "fast_kinetics_two_concentrations",
+      "case": "fast_kinetics",
+      "design": "two_concentrations",
+      "sigma_log_porosity": 0.02,
+      "log_parameter_std": [
+        0.09640266993762855,
+        0.011954470161182885,
+        0.07042804485612827,
+        0.019993001505455497
+      ],
+      "direct_solve_relative_check": 1.6608717445417026e-15
+    },
+    {
+      "key": "fast_kinetics_two_concentrations",
+      "case": "fast_kinetics",
+      "design": "two_concentrations",
+      "sigma_log_porosity": 0.05,
+      "log_parameter_std": [
+        0.09673424749531592,
+        0.011961624475270641,
+        0.0704429484873147,
+        0.04989094890333928
+      ],
+      "direct_solve_relative_check": 8.757425016960791e-16
+    },
+    {
+      "key": "fast_kinetics_two_concentrations",
+      "case": "fast_kinetics",
+      "design": "two_concentrations",
+      "sigma_log_porosity": 0.1,
+      "log_parameter_std": [
+        0.09788999434846236,
+        0.011986719752827509,
+        0.07049527166583734,
+        0.09913605517719697
+      ],
+      "direct_solve_relative_check": 2.928376652240837e-15
+    },
+    {
+      "key": "fast_kinetics_two_concentrations",
+      "case": "fast_kinetics",
+      "design": "two_concentrations",
+      "sigma_log_porosity": 0.2,
+      "log_parameter_std": [
+        0.10211267034294534,
+        0.012080477220931737,
+        0.07069137869219654,
+        0.19334533755159664
+      ],
+      "direct_solve_relative_check": 1.2432419336854135e-15
+    },
+    {
+      "key": "high_affinity_one_condition",
+      "case": "high_affinity",
+      "design": "one_condition",
+      "sigma_log_porosity": 0.01,
+      "log_parameter_std": [
+        0.11032561139479895,
+        0.029740322777853195,
+        0.5179997713869557,
+        0.009999997692587326
+      ],
+      "direct_solve_relative_check": 5.0143638170568353e-14
+    },
+    {
+      "key": "high_affinity_one_condition",
+      "case": "high_affinity",
+      "design": "one_condition",
+      "sigma_log_porosity": 0.02,
+      "log_parameter_std": [
+        0.11032612236621593,
+        0.029744076490258325,
+        0.5180561847202251,
+        0.01999998154071775
+      ],
+      "direct_solve_relative_check": 5.0332562734948237e-14
+    },
+    {
+      "key": "high_affinity_one_condition",
+      "case": "high_affinity",
+      "design": "one_condition",
+      "sigma_log_porosity": 0.05,
+      "log_parameter_std": [
+        0.11032969906026033,
+        0.029770338933901727,
+        0.5184509018076057,
+        0.04999971157581109
+      ],
+      "direct_solve_relative_check": 5.028417989279557e-14
+    },
+    {
+      "key": "high_affinity_one_condition",
+      "case": "high_affinity",
+      "design": "one_condition",
+      "sigma_log_porosity": 0.1,
+      "log_parameter_std": [
+        0.11034247145532669,
+        0.029863940702972328,
+        0.5198580969073191,
+        0.09999769266638259
+      ],
+      "direct_solve_relative_check": 5.0204093408072986e-14
+    },
+    {
+      "key": "high_affinity_one_condition",
+      "case": "high_affinity",
+      "design": "one_condition",
+      "sigma_log_porosity": 0.2,
+      "log_parameter_std": [
+        0.1103935374229656,
+        0.030235386344503335,
+        0.5254482305953909,
+        0.19998154324738862
+      ],
+      "direct_solve_relative_check": 4.964198808075883e-14
+    },
+    {
+      "key": "high_affinity_two_concentrations",
+      "case": "high_affinity",
+      "design": "two_concentrations",
+      "sigma_log_porosity": 0.01,
+      "log_parameter_std": [
+        0.04599588683719322,
+        0.009031814364691153,
+        0.16162970450047673,
+        0.009999926934869162
+      ],
+      "direct_solve_relative_check": 3.2911499108908743e-15
+    },
+    {
+      "key": "high_affinity_two_concentrations",
+      "case": "high_affinity",
+      "design": "two_concentrations",
+      "sigma_log_porosity": 0.02,
+      "log_parameter_std": [
+        0.04599780288999007,
+        0.009032637571201395,
+        0.16164006414048854,
+        0.01999941549817133
+      ],
+      "direct_solve_relative_check": 3.2973808912059224e-15
+    },
+    {
+      "key": "high_affinity_two_concentrations",
+      "case": "high_affinity",
+      "design": "two_concentrations",
+      "sigma_log_porosity": 0.05,
+      "log_parameter_std": [
+        0.046011208324680766,
+        0.00903839589855943,
+        0.16171253762651902,
+        0.049990869260270764
+      ],
+      "direct_solve_relative_check": 3.290327359963713e-15
+    },
+    {
+      "key": "high_affinity_two_concentrations",
+      "case": "high_affinity",
+      "design": "two_concentrations",
+      "sigma_log_porosity": 0.1,
+      "log_parameter_std": [
+        0.046058986040065884,
+        0.00905890273946392,
+        0.1619707448668459,
+        0.09992701405045709
+      ],
+      "direct_solve_relative_check": 3.2103189524605304e-15
+    },
+    {
+      "key": "high_affinity_two_concentrations",
+      "case": "high_affinity",
+      "design": "two_concentrations",
+      "sigma_log_porosity": 0.2,
+      "log_parameter_std": [
+        0.04624856696757372,
+        0.009140027624626986,
+        0.16299389654220767,
+        0.19941802267093853
+      ],
+      "direct_solve_relative_check": 1.993936021195757e-15
+    }
+  ],
+  "max_direct_solve_relative_check": 5.0332562734948237e-14
+}

@@ -1,0 +1,39 @@
+{
+  "concentration_seeds": [
+    20261101,
+    20261102,
+    20261103
+  ],
+  "porosity_seeds": [
+    20261111,
+    20261112,
+    20261113
+  ],
+  "sigma_c": 0.02,
+  "sigma_log_porosity": 0.05,
+  "density_observed": 0.8254263138594846,
+  "fit_cells": 256,
+  "reference_cells": 1024,
+  "check_cells": 2048,
+  "max_nfev": 30,
+  "starts": [
+    [
+      0.0007,
+      38.4,
+      0.024,
+      0.32
+    ],
+    [
+      0.0015,
+      57.6,
+      0.072,
+      0.5
+    ]
+  ],
+  "reference_gate": {
+    "outlet_rmse": 0.001,
+    "outlet_max": 0.002,
+    "relative_mass_error": 1e-06
+  },
+  "scope": "Three concentration noise vectors crossed with three auxiliary observations; not nine independent datasets. Same FV family; synthetic only."
+}

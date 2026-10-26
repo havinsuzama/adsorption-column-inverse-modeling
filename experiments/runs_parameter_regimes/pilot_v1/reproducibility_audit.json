@@ -1,0 +1,46 @@
+{
+  "source_hashes_verified": true,
+  "cases": {
+    "fast_kinetics": {
+      "fits_recorded": 16,
+      "noise_reconstruction_max_error": 1.0755285551056204e-16,
+      "porosity_observed": [
+        0.386848342894651,
+        0.4118435813711425
+      ],
+      "unique_fit_keys": true,
+      "reference_gates_passed": true
+    },
+    "high_affinity": {
+      "fits_recorded": 16,
+      "noise_reconstruction_max_error": 1.0495077029659683e-16,
+      "porosity_observed": [
+        0.386848342894651,
+        0.4118435813711425
+      ],
+      "unique_fit_keys": true,
+      "reference_gates_passed": true
+    },
+    "low_affinity": {
+      "fits_recorded": 16,
+      "noise_reconstruction_max_error": 1.0755285551056204e-16,
+      "porosity_observed": [
+        0.386848342894651,
+        0.4118435813711425
+      ],
+      "unique_fit_keys": true,
+      "reference_gates_passed": true
+    },
+    "slow_kinetics": {
+      "fits_recorded": 16,
+      "noise_reconstruction_max_error": 9.71445146547012e-17,
+      "porosity_observed": [
+        0.386848342894651,
+        0.4118435813711425
+      ],
+      "unique_fit_keys": true,
+      "reference_gates_passed": true
+    }
+  },
+  "scope": "Audit of saved sources, seeds, reference gates and available fit identifiers; not a statistical validation or optimizer proof."
+}

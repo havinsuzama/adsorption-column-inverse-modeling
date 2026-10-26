@@ -1,0 +1,6 @@
+* text=auto eol=lf
+experiments/** -text whitespace=cr-at-eol
+experimental_pinn/** -text whitespace=cr-at-eol
+*.npz -text
+*.pt -text
+*.png -text

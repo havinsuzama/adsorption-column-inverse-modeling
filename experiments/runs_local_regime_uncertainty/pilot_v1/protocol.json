@@ -1,0 +1,13 @@
+{
+  "source": "runs_regime_grid/pilot_v1",
+  "fit_cells": 512,
+  "sigma_c": 0.02,
+  "sigma_log_porosity": 0.05,
+  "parameter_order": [
+    "k_min",
+    "density_capacity_product",
+    "KL_l_mg",
+    "porosity"
+  ],
+  "scope": "Observed-design local Gauss-Newton geometry at saved fitted parameters; fixed known noise scales. Not new fits, nonlinear confidence regions, coverage, blind validation or global identifiability. Without-auxiliary geometry uses SAME fitted state, not reestimated parameters. Density fixed; no separate qmax uncertainty."
+}

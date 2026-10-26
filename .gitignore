@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+.spyproject/
+.ipynb_checkpoints/
+/generated/
+/experimental_pinn/runs/
+
+# Turkish draft reports that some experiment scripts write when rerun
+experiments/runs_*/**/RAPOR.md
+
+# Pre-cleanup copies (local only)
+_before_cleanup/

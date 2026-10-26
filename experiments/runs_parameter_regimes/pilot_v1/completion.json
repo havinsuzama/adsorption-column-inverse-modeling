@@ -1,0 +1,9 @@
+{
+  "fits_complete": true,
+  "cases": [
+    "slow_kinetics",
+    "fast_kinetics",
+    "low_affinity",
+    "high_affinity"
+  ]
+}

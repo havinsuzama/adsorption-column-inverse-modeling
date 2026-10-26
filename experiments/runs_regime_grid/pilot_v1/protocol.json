@@ -1,0 +1,14 @@
+{
+  "cases": [
+    "fast_kinetics",
+    "high_affinity"
+  ],
+  "concentration_index": 0,
+  "porosity_index": 0,
+  "source_cells": 256,
+  "fit_cells": 512,
+  "data_cells": 1024,
+  "max_nfev": 15,
+  "initialization": "Observed-objective selected 256-cell fit, warm start",
+  "scope": "Post-pilot selected-case discretization diagnostic, not independent noise/start replication. Selection stated before these refits. Same bounds, objective and stopping tolerances; no acceptance threshold changed."
+}

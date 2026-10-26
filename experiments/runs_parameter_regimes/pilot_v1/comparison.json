@@ -1,0 +1,250 @@
+[
+  {
+    "case": "slow_kinetics",
+    "truth": [
+      0.0005,
+      48,
+      0.04,
+      0.4
+    ],
+    "comparisons": {
+      "k_min": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 2,
+        "paired_absolute_error_differences": [
+          -0.1708384448100403,
+          -0.1698169205303679,
+          0.004067445170148787,
+          0.00372886345752077
+        ]
+      },
+      "density_capacity_product": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 2,
+        "paired_absolute_error_differences": [
+          -0.05728639103280775,
+          -0.06063760786604999,
+          0.009048437488150096,
+          0.011915306094408828
+        ]
+      },
+      "KL_l_mg": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 2,
+        "paired_absolute_error_differences": [
+          -0.6676494886763242,
+          -0.7048320398012504,
+          0.02541946608480572,
+          0.03929546378963655
+        ]
+      },
+      "porosity": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 3,
+        "paired_absolute_error_differences": [
+          0.0007436459871100753,
+          -0.0009466782303260146,
+          -0.0001152016120515853,
+          -6.315886072894017e-05
+        ]
+      }
+    },
+    "common_150_paired_differences": [
+      -0.016112135207758053,
+      -0.016542335494179355,
+      0.002978145473052364,
+      0.003403129159156277
+    ],
+    "unsuccessful": 0,
+    "exception_count": 0,
+    "active_bound_count": 0,
+    "max_start_cost_gap": 1.731356391587724e-09,
+    "fit_seconds": 1320.15405740001
+  },
+  {
+    "case": "fast_kinetics",
+    "truth": [
+      0.002,
+      48,
+      0.04,
+      0.4
+    ],
+    "comparisons": {
+      "k_min": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 4,
+        "paired_absolute_error_differences": [
+          -0.08885519513593076,
+          -0.10159005231044027,
+          -0.1816202304201857,
+          -0.19430202863904966
+        ]
+      },
+      "density_capacity_product": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 4,
+        "paired_absolute_error_differences": [
+          -0.04372966125730182,
+          -0.04769860965292838,
+          -0.09180548709426284,
+          -0.09550216098164077
+        ]
+      },
+      "KL_l_mg": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 4,
+        "paired_absolute_error_differences": [
+          -0.2945399271796869,
+          -0.3328067824730596,
+          -0.9713906180364973,
+          -1.034241114871011
+        ]
+      },
+      "porosity": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 2,
+        "paired_absolute_error_differences": [
+          0.0017578855812510064,
+          -0.002178371054788464,
+          0.006840092538636933,
+          -0.007743819636888638
+        ]
+      }
+    },
+    "common_150_paired_differences": [
+      -0.014815099405574298,
+      -0.016425326123094188,
+      -0.033264325201343405,
+      -0.034443883819566645
+    ],
+    "unsuccessful": 0,
+    "exception_count": 0,
+    "active_bound_count": 0,
+    "max_start_cost_gap": 8.430902198597323e-09,
+    "fit_seconds": 2244.509806300048
+  },
+  {
+    "case": "low_affinity",
+    "truth": [
+      0.001,
+      48,
+      0.01,
+      0.4
+    ],
+    "comparisons": {
+      "k_min": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 4,
+        "paired_absolute_error_differences": [
+          -0.033717036614264506,
+          -0.02641662668221012,
+          -0.1449455317874181,
+          -0.15265204776365426
+        ]
+      },
+      "density_capacity_product": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 2,
+        "paired_absolute_error_differences": [
+          0.007843998145536935,
+          0.016466039709525537,
+          -0.1613328753676324,
+          -0.1662659027177842
+        ]
+      },
+      "KL_l_mg": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 2,
+        "paired_absolute_error_differences": [
+          0.01606876179439387,
+          0.031022503924587164,
+          -0.4698466633444729,
+          -0.4954254903830393
+        ]
+      },
+      "porosity": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 2,
+        "paired_absolute_error_differences": [
+          -0.001104540692067113,
+          0.001132977637510857,
+          0.002764175814255476,
+          -0.00320832614134825
+        ]
+      }
+    },
+    "common_150_paired_differences": [
+      -0.001037317374410279,
+      -0.00033419727611381806,
+      -0.01348288224910646,
+      -0.014238911949288606
+    ],
+    "unsuccessful": 0,
+    "exception_count": 0,
+    "active_bound_count": 0,
+    "max_start_cost_gap": 3.1822509072299e-09,
+    "fit_seconds": 6257.5402937000035
+  },
+  {
+    "case": "high_affinity",
+    "truth": [
+      0.001,
+      48,
+      0.16,
+      0.4
+    ],
+    "comparisons": {
+      "k_min": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 2,
+        "paired_absolute_error_differences": [
+          0.01319515049445974,
+          0.010663746870198443,
+          -0.02733865249756784,
+          -0.0262664007261183
+        ]
+      },
+      "density_capacity_product": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 2,
+        "paired_absolute_error_differences": [
+          0.0006254603559916472,
+          0.0018321392417914861,
+          -0.008129201573697453,
+          -0.008852820412059259
+        ]
+      },
+      "KL_l_mg": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 3,
+        "paired_absolute_error_differences": [
+          0.015616400562482147,
+          -0.0054349738421000104,
+          -0.20205705120583906,
+          -0.22546610934436062
+        ]
+      },
+      "porosity": {
+        "available_pairs": 4,
+        "two_concentration_lower_error": 2,
+        "paired_absolute_error_differences": [
+          -0.0010592708522594307,
+          0.0011390418500025756,
+          0.001975668038288969,
+          -0.0022004572940825806
+        ]
+      }
+    },
+    "common_150_paired_differences": [
+      0.0010713906438197442,
+      0.0011872702632433844,
+      -0.0012638304349045868,
+      -0.001604391396625336
+    ],
+    "unsuccessful": 0,
+    "exception_count": 0,
+    "active_bound_count": 0,
+    "max_start_cost_gap": 2.9057762418460698e-08,
+    "fit_seconds": 11601.52035419998
+  }
+]

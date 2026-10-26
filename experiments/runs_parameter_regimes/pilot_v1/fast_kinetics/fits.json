@@ -1,0 +1,514 @@
+[
+  {
+    "key": "one_condition_0_0_0",
+    "design": "one_condition",
+    "concentration_index": 0,
+    "porosity_index": 0,
+    "start_index": 0,
+    "estimate": {
+      "k_min": 0.001651130318481759,
+      "density_capacity_product": 45.69864740326565,
+      "KL_l_mg": 0.052955479189829534,
+      "porosity": 0.3869846835877966
+    },
+    "relative_errors": [
+      -0.17443484075912052,
+      -0.047944845765298894,
+      0.3238869797457382,
+      -0.03253829103050854
+    ],
+    "cost": 18.158444042687954,
+    "nfev": 12,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.013415413323861326,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 63.76690149999922
+  },
+  {
+    "key": "one_condition_0_0_1",
+    "design": "one_condition",
+    "concentration_index": 0,
+    "porosity_index": 0,
+    "start_index": 1,
+    "estimate": {
+      "k_min": 0.0016511397610830185,
+      "density_capacity_product": 45.69872815943003,
+      "KL_l_mg": 0.052954864391931256,
+      "porosity": 0.3869846871737077
+    },
+    "relative_errors": [
+      -0.17443011945849074,
+      -0.04794316334520765,
+      0.32387160979828145,
+      -0.03253828206573073
+    ],
+    "cost": 18.15844404195816,
+    "nfev": 16,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.004427989468153484,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 98.50234950000595
+  },
+  {
+    "key": "one_condition_0_1_0",
+    "design": "one_condition",
+    "concentration_index": 0,
+    "porosity_index": 1,
+    "start_index": 0,
+    "estimate": {
+      "k_min": 0.001647673273538211,
+      "density_capacity_product": 45.481380466434416,
+      "KL_l_mg": 0.05456582333162314,
+      "porosity": 0.4119918529596137
+    },
+    "relative_errors": [
+      -0.17616336323089443,
+      -0.052471240282616294,
+      0.36414558329057845,
+      0.02997963239903423
+    ],
+    "cost": 18.149523447291404,
+    "nfev": 12,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.008506112829535842,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 72.16295510000782
+  },
+  {
+    "key": "one_condition_0_1_1",
+    "design": "one_condition",
+    "concentration_index": 0,
+    "porosity_index": 1,
+    "start_index": 1,
+    "estimate": {
+      "k_min": 0.0016476640119633852,
+      "density_capacity_product": 45.48130227902172,
+      "KL_l_mg": 0.05456645635378112,
+      "porosity": 0.4119918480214829
+    },
+    "relative_errors": [
+      -0.1761679940183074,
+      -0.05247286918704752,
+      0.36416140884452797,
+      0.029979620053707245
+    ],
+    "cost": 18.149523448377092,
+    "nfev": 15,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.01842362624941644,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 122.37719700000889
+  },
+  {
+    "key": "one_condition_1_0_0",
+    "design": "one_condition",
+    "concentration_index": 1,
+    "porosity_index": 0,
+    "start_index": 0,
+    "estimate": {
+      "k_min": 0.0015237807953279103,
+      "density_capacity_product": 43.294419080677564,
+      "KL_l_mg": 0.07957625071551358,
+      "porosity": 0.3868715421278828
+    },
+    "relative_errors": [
+      -0.23810960233604483,
+      -0.09803293581921746,
+      0.9894062678878395,
+      -0.03282114468029307
+    ],
+    "cost": 19.962583869444195,
+    "nfev": 16,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.002771541977529331,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 201.89275060000364
+  },
+  {
+    "key": "one_condition_1_0_1",
+    "design": "one_condition",
+    "concentration_index": 1,
+    "porosity_index": 0,
+    "start_index": 1,
+    "estimate": {
+      "k_min": 0.0015237680807967573,
+      "density_capacity_product": 43.29431280333208,
+      "KL_l_mg": 0.07957807084485537,
+      "porosity": 0.38687153672894664
+    },
+    "relative_errors": [
+      -0.23811595960162135,
+      -0.0980351499305816,
+      0.9894517711213842,
+      -0.032821158177633425
+    ],
+    "cost": 19.962583868159072,
+    "nfev": 12,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.0003196788242296308,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 91.54954710000311
+  },
+  {
+    "key": "one_condition_1_1_0",
+    "design": "one_condition",
+    "concentration_index": 1,
+    "porosity_index": 1,
+    "start_index": 0,
+    "estimate": {
+      "k_min": 0.0015209490306795218,
+      "density_capacity_product": 43.14928260938361,
+      "KL_l_mg": 0.08199075477996794,
+      "porosity": 0.41186885405951373
+    },
+    "relative_errors": [
+      -0.23952548466023915,
+      -0.10105661230450813,
+      1.0497688694991982,
+      0.029672135148784307
+    ],
+    "cost": 19.96106471369546,
+    "nfev": 17,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.0002492366494685898,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 144.56089160000556
+  },
+  {
+    "key": "one_condition_1_1_1",
+    "design": "one_condition",
+    "concentration_index": 1,
+    "porosity_index": 1,
+    "start_index": 1,
+    "estimate": {
+      "k_min": 0.0015209467343656896,
+      "density_capacity_product": 43.14926405016874,
+      "KL_l_mg": 0.0819910924405598,
+      "porosity": 0.4118688529046578
+    },
+    "relative_errors": [
+      -0.23952663281715525,
+      -0.1010569989548179,
+      1.0497773110139947,
+      0.029672132261644446
+    ],
+    "cost": 19.961064713685477,
+    "nfev": 12,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.00023721822988236442,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 88.19554290000815
+  },
+  {
+    "key": "two_concentrations_0_0_0",
+    "design": "two_concentrations",
+    "concentration_index": 0,
+    "porosity_index": 0,
+    "start_index": 0,
+    "estimate": {
+      "k_min": 0.0018288500460769928,
+      "density_capacity_product": 47.797751916988645,
+      "KL_l_mg": 0.04117326758540086,
+      "porosity": 0.38628153156370426
+    },
+    "relative_errors": [
+      -0.08557497696150362,
+      -0.004213501729403268,
+      0.02933168963502153,
+      -0.03429617109073935
+    ],
+    "cost": 18.283178893783383,
+    "nfev": 10,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.00042796958236550895,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 161.4347745999985
+  },
+  {
+    "key": "two_concentrations_0_0_1",
+    "design": "two_concentrations",
+    "concentration_index": 0,
+    "porosity_index": 0,
+    "start_index": 1,
+    "estimate": {
+      "k_min": 0.0018288501513548802,
+      "density_capacity_product": 47.79775189978052,
+      "KL_l_mg": 0.041173267304743785,
+      "porosity": 0.3862815329412073
+    },
+    "relative_errors": [
+      -0.08557492432255998,
+      -0.004213502087905829,
+      0.029331682618594535,
+      -0.034296167646981734
+    ],
+    "cost": 18.283178893702267,
+    "nfev": 10,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.0006261315825452346,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 179.37522760000138
+  },
+  {
+    "key": "two_concentrations_0_1_0",
+    "design": "two_concentrations",
+    "concentration_index": 0,
+    "porosity_index": 1,
+    "start_index": 0,
+    "estimate": {
+      "k_min": 0.0018508532617051484,
+      "density_capacity_product": 47.77091377545584,
+      "KL_l_mg": 0.04125355235488342,
+      "porosity": 0.4111205023577839
+    },
+    "relative_errors": [
+      -0.07457336914742585,
+      -0.004772629678003404,
+      0.0313388088720854,
+      0.02780125589445981
+    ],
+    "cost": 18.32349844073391,
+    "nfev": 10,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.0006251100761701187,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 118.40165150001121
+  },
+  {
+    "key": "two_concentrations_0_1_1",
+    "design": "two_concentrations",
+    "concentration_index": 0,
+    "porosity_index": 1,
+    "start_index": 1,
+    "estimate": {
+      "k_min": 0.0018508533781590917,
+      "density_capacity_product": 47.77091372977498,
+      "KL_l_mg": 0.04125355203270075,
+      "porosity": 0.41112050453769833
+    },
+    "relative_errors": [
+      -0.07457331092045416,
+      -0.004772630629687913,
+      0.03133880081751883,
+      0.027801261344245765
+    ],
+    "cost": 18.323498440662917,
+    "nfev": 10,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.0009526742645086363,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 119.91321699999389
+  },
+  {
+    "key": "two_concentrations_1_0_0",
+    "design": "two_concentrations",
+    "concentration_index": 1,
+    "porosity_index": 0,
+    "start_index": 0,
+    "estimate": {
+      "k_min": 0.0018870085416371287,
+      "density_capacity_product": 48.2990238161433,
+      "KL_l_mg": 0.039277553876604525,
+      "porosity": 0.38413549971349187
+    },
+    "relative_errors": [
+      -0.05649572918143564,
+      0.006229662836318761,
+      -0.018061153084886872,
+      -0.03966125071627036
+    ],
+    "cost": 20.48725225632897,
+    "nfev": 13,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.044481510844633136,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 186.2126244999963
+  },
+  {
+    "key": "two_concentrations_1_0_1",
+    "design": "two_concentrations",
+    "concentration_index": 1,
+    "porosity_index": 0,
+    "start_index": 1,
+    "estimate": {
+      "k_min": 0.0018870132736871275,
+      "density_capacity_product": 48.299017973053815,
+      "KL_l_mg": 0.03927758804598552,
+      "porosity": 0.3841354751413394
+    },
+    "relative_errors": [
+      -0.05649336315643627,
+      0.006229541105287728,
+      -0.018060298850361978,
+      -0.039661312146651584
+    ],
+    "cost": 20.4872522630615,
+    "nfev": 13,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.06240788518912524,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 228.31961609999416
+  },
+  {
+    "key": "two_concentrations_1_1_0",
+    "design": "two_concentrations",
+    "concentration_index": 1,
+    "porosity_index": 1,
+    "start_index": 0,
+    "estimate": {
+      "k_min": 0.0019095507916437888,
+      "density_capacity_product": 48.2666322227125,
+      "KL_l_mg": 0.03937855215428065,
+      "porosity": 0.4087713250499024
+    },
+    "relative_errors": [
+      -0.04522460417810559,
+      0.005554837973177129,
+      -0.015536196142983849,
+      0.021928312624755808
+    ],
+    "cost": 20.66908895976241,
+    "nfev": 13,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.04700743202312645,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 188.78101460001199
+  },
+  {
+    "key": "two_concentrations_1_1_1",
+    "design": "two_concentrations",
+    "concentration_index": 1,
+    "porosity_index": 1,
+    "start_index": 1,
+    "estimate": {
+      "k_min": 0.0019095567086714123,
+      "density_capacity_product": 48.26662504023233,
+      "KL_l_mg": 0.039378594634756625,
+      "porosity": 0.4087712918860413
+    },
+    "relative_errors": [
+      -0.045221645664293875,
+      0.005554688338173408,
+      -0.015535134131084427,
+      0.02192822971510311
+    ],
+    "cost": 20.66908896819331,
+    "nfev": 13,
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "optimality": 0.0693831277462601,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "seconds": 179.063545099998
+  }
+]
